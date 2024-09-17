@@ -94,6 +94,7 @@ input {
     gap: 30px;
     border-right: 1px solid rgba(209, 208, 208, 0.297);
     padding-right: 30px;
+    align-items: start;
 
 }
 
@@ -106,6 +107,11 @@ input {
     justify-content: start;
     align-items: baseline;
     gap: 20px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 1;
+    background-color: white;
 
 }
 
@@ -206,7 +212,7 @@ input {
     margin-left: 20px;
     width: 25%;
     top: 20px;
-    height: 200px;
+    height: 500px;
 
 
 }
